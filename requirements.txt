@@ -1,0 +1,4 @@
+# Runtime dependencies: none.
+# Requires Python 3.11 or newer.
+# Install the application itself with: python -m pip install -e .
+# Build-system requirements are declared in pyproject.toml.

@@ -1,0 +1,58 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Tests, coverage and type-checking caches
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Generated demonstration data and reports
+demo_data/
+QC_Report*/
+QC_Audit*/
+report.html
+*.tmp
+*.log
+.fastqc_report.*
+
+# Sequencing data and generated FastQC archives
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.bam
+*.sam
+*.cram
+*.biom
+*_fastqc.zip
+
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
